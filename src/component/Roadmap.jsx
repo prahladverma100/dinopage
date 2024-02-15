@@ -21,7 +21,7 @@ const Roadmap = () => {
                 <div className=' absolute top-0 bottom-0 md:block hidden px-3 left-0 xl:pl-[68px] right-0'>
                     <img className=' mt-[-30px]' src={roadmapline} alt="" />
                 </div>
-                <div className='pl-28 sm:pl-40 md:pl-0'>
+                <div className='pl-32 sm:pl-40 md:pl-0'>
                     <div className=' flex md:flex-row justify-start flex-col  md:items-center relative z-10 md:pb-28 pb-0' data-aos="fade-right">
                         <h4 className=' ff_chewy font-normal text-[50px] md:text-[100px] lg:text-[120px] xl:text-[200px] box-shadow-[ 0px_18.41269874572754px_18.41269874572754px_0px_#00000040] text-[#FBA11D]'>01</h4>
                         <ol className=' list-disc md:ps-11'>
@@ -32,7 +32,7 @@ const Roadmap = () => {
 
                     </div>
                 </div>
-                <div className='pl-28 sm:pl-40 md:pl-0'>
+                <div className='pl-32 sm:pl-40 md:pl-0'>
                     <div className=' flex md:items-center md:flex-row flex-col md:justify-center justify-start xl:pt-44 lg:pt-48 xl:mt-7 pt-0  md:pt-24 relative z-10' data-aos="fade-left">
                         <h4 className=' ff_chewy font-normal text-[50px] md:text-[100px] lg:text-[120px] xl:text-[200px] box-shadow-[ 0px_18.41269874572754px_18.41269874572754px_0px_#00000040] text-[#8EC627]'>02</h4>
                         <ol className=' list-disc md:ps-11'>
@@ -43,7 +43,7 @@ const Roadmap = () => {
 
                     </div>
                 </div>
-                <div className='pl-28 sm:pl-40 md:pl-0'>
+                <div className='pl-32 sm:pl-40 md:pl-0'>
                     <div className=' flex md:items-center md:flex-row flex-col  justify-center md:justify-start pb-0 md:pb-20 pt-0 md:pt-44 relative z-10' data-aos="fade-right">
                         <h4 className=' ff_chewy font-normal text-[50px] md:text-[100px] lg:text-[120px] xl:text-[200px] box-shadow-[ 0px_18.41269874572754px_18.41269874572754px_0px_#00000040] text-[#D45B07]'>03</h4>
                         <ol className=' list-disc md:ps-11'>
@@ -53,7 +53,7 @@ const Roadmap = () => {
                         </ol>
                     </div>
                 </div>
-                <div className='pl-28 sm:pl-40 md:pl-0'>
+                <div className='pl-32 sm:pl-40 md:pl-0'>
                     <div className=' flex md:items-center md:flex-row flex-col pt-0 justify-start md:justify-center lg:justify-center xl:justify-center md:pt-10 md:pb-40 lg:pt-48 xl:mt-2 relative z-10' data-aos="fade-left">
                         <h4 className=' ff_chewy font-normal text-[50px] md:text-[100px] lg:text-[120px] xl:text-[200px] box-shadow-[ 0px_18.41269874572754px_18.41269874572754px_0px_#00000040] text-[#23AAAC]'>04</h4>
                         <ol className=' list-disc md:pl-11'>
