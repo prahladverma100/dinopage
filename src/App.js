@@ -20,7 +20,7 @@ function App() {
       });
     }, [])
   return (
-    < div className = '' >
+    < div className = 'overflow-hidden' >
       <Header />
       < About_dinol />
       < Tokenomics />

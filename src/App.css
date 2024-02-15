@@ -33,7 +33,9 @@
 br {
   display: none !important;
 }
-
+.overflow_hidden{
+  overflow: hidden !important;
+}
 @media (min-width:768px) {
   .animation_cortoon {
     animation: animation_cortoon 24s;
@@ -199,7 +201,4 @@ br {
 html,
 body {
   scroll-behavior: smooth;
-}
-.overflow_hidden {
-  overflow: hidden !important;
 }

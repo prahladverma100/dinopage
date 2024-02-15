@@ -7,15 +7,12 @@ import dinosour1 from '../assets/image/webp/dinosour1.webp'
 const Header = () => {
     const [isOpen, setOpen] = useState(false);
     const [Show, setShow] = useState(false);
-    if (Show) {
-        document.body.classList.add("overflow_hidden");
+    if (Show === true) {
+        document.body.classList.add("max-md:overflow-hidden");
     }
     else {
-        document.body.classList.remove("overflow_hidden");
-    }
-    // const moment = () => {
-    //     setShow(!true);
-    // };
+        document.body.classList.remove("max-md:overflow-hidden");
+    };
     return (
         <div className='bg_img bg-no-repeat overflow_hidden bg-cover bg-full bg-center lg:min-h-screen h-[796px] relative'>
             <img className=' absolute w-full lg:max-w-[131px] max-w-[100px] bottom-[17%] left-[50%] animation_cortoon1' src={dinsorue} alt="" />
@@ -48,7 +45,7 @@ const Header = () => {
                         </button>
                     </div>
                 </nav>
-                <div className=' lg:flex-row  flex pt-2 md:pt-14 lg:pt-[83px] flex-col-reverse' id='About'>
+                <div className=' lg:flex-row flex pt-2 md:pt-14 lg:pt-[83px] flex-col-reverse' id='About'>
                     <div className=' w-full lg:w-5/12'>
                         <div className=' ps-5'>
                             <img className=' w-full lg:max-w-[394px] md:max-w-[300px] max-w-[270px] aroplane' src={aroplane} alt="" />
