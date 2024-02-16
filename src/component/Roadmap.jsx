@@ -54,7 +54,7 @@ const Roadmap = () => {
                     </div>
                 </div>
                 <div className='pl-32 sm:pl-40 md:pl-0 pt-9 md:pt-0'>
-                    <div className=' flex md:items-center md:flex-row flex-col pt-0 justify-start md:justify-center lg:justify-center xl:justify-center md:pt-20 md:pb-40 lg:pt-60 xl:mt-2 relative z-10' data-aos="fade-left">
+                    <div className=' flex md:items-center md:flex-row flex-col pt-0 justify-start md:justify-center lg:justify-center xl:justify-center md:pt-20 md:pb-40 lg:pt-48 xl:mt-2 relative z-10' data-aos="fade-left">
                         <h4 className=' ff_chewy font-normal text-[50px] md:text-[100px] lg:text-[120px] xl:text-[200px] box-shadow-[ 0px_18.41269874572754px_18.41269874572754px_0px_#00000040] text-[#23AAAC]'>04</h4>
                         <ol className=' list-disc md:pl-11'>
                             <li className='ff_balsamiq font-normal text-white text-sm md:text-xl leading-5 !list-disc'>staking Introduction</li>
