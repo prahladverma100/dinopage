@@ -15,9 +15,10 @@ const Header = () => {
     };
     return (
         <div className='bg_img bg-no-repeat overflow_hidden bg-cover bg-full bg-center lg:min-h-screen h-[796px] relative'>
-            <img className=' absolute w-full lg:max-w-[131px] max-w-[100px] bottom-[17%] left-[50%] animation_cortoon1' src={dinsorue} alt="" />
+            <img className=' absolute w-full lg:max-w-[131px] max-w-[100px] bottom-[17%] left-0 sm:left-[50%] animation_cortoon1' src={dinsorue} alt="" />
             <img className=' absolute bottom-[8%] right-[7%] w-full lg:max-w-[190px] max-w-[150px] animation_cortoon' src={dinosour1} alt="" />
-            <div className=' mx-auto px-3 max-w-[1133px] pt-7'>
+            <div
+                className=' mx-auto px-3 max-w-[1133px] pt-7'>
                 <nav className=' bg-white flex justify-between py-[15px] ps-6 pe-2 items-center  rounded-[61px] border-b-[4px] border-black'>
                     <div>
                         <h5 className='ff_lucky font-normal text-[39px] mb-0 leading-[37px]' data-aos="fade-left"><span className=' text-[#FBA11D]'>D</span><span className=' text-[#23aaac]'>i</span><span className='text-[#d45b07]'>n</span><span className='text-[#8ec627]'>o</span><span className='text-[#fcca2b]'>L</span><span className='text-[#8f78d2]'>F</span><span className='text-[#23aaac]'>G</span></h5>

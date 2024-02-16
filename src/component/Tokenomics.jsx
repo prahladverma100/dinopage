@@ -25,7 +25,7 @@ const Tokenomics = () => {
             <img className=' bottom-[1%] absolute md:max-w-[194px]  w-full max-w-[120px] right-[10%]' src={tree3} alt="" />
             <img className=' bottom-[2%] w-full max-w-[81px] hidden sm:block absolute right-[33%]' src={tree2} alt="" />
             <div className='mx-auto px-3 max-w-[1133px] xl:pt-[276px]  lg:pt-32 pt-20'>
-                <p className=' ff_chewy font-normal text-center text-[50px] lg:text-[64px] leading-[83.64px] lg:pb-20 pb-0 text-white' data-aos="fade-down"
+                <p className=' ff_chewy font-normal text-center text-5xl lg:text-[64px] leading-[83.64px] lg:pb-20 pb-0 text-white' data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1000">Tokenomics</p>
                 <div className='flex justify-center pt-16 lg:pb-20 pb-0'>
@@ -67,40 +67,35 @@ const Tokenomics = () => {
                         <div className=' lg:hidden flex items-center pt-5'>
                             <div className=' h-[50px] w-[50px] bg-[#FBA11D] '></div>
                             <div className='pl-3'>
-                                <p className=' ff_balsamiq font-normal lg:text-[32px] text-[21px] leading-[38.4px] text-[#FBA11D]'>333,333,333</p>
-                                <p className='ff_balsamiq font-normal text-2xl leading-[33.24px] text-white '>Supply</p>
+                                <p className=' ff_balsamiq font-normal lg:text-[32px] text-xl leading-[38.4px] text-[#FBA11D]'>333,333,333</p>
+                                <p className='ff_balsamiq font-normal lg:text-2xl text-xl leading-[33.24px] text-white '>Supply</p>
                             </div>
                         </div>
-                        <div className=' lg:hidden flex flex-row items-center'>
+                        <div className=' lg:hidden flex flex-row items-center mt-3'>
                             <div className=' h-[50px] w-[50px]  bg-[#23AAAC]'></div>
                             <div className='pl-3'>
                                 <p className=' ff_balsamiq font-normal lg:text-[32px] text-[21px] leading-[38.4px] text-[#23AAAC] '>95% Uniswa 5% Marketing</p>
-                                <p className='ff_balsamiq font-normal text-2xl leading-[33.24px] text-white '>Allocation</p>
+                                <p className='ff_balsamiq font-normal lg:text-[23px] text-xl leading-[33.24px] text-white '>Allocation</p>
                             </div>
                         </div>
-                        <div className=' lg:hidden flex items-center'>
-                            <div className=' h-[50px] w-[50px] bg-[#FBA11D]'></div>
-                            <div className=' pl-3'>
-                                <p className=' ff_balsamiq font-normal lg:text-[32px] text-[21px] leading-[38.4px] text-[#FBA11D]'>333,333,333</p>
-                                <p className='ff_balsamiq font-normal text-2xl leading-[33.24px] text-white '>Supply</p>
-                            </div>
-                        </div>
-                        <div className=' lg:hidden flex items-center'>
+                        <div className=' lg:hidden flex items-center mt-3'>
                             <div className=' h-[50px] w-[50px] bg-[#D45B07]'></div>
                             <div className=' pl-3'>
-                                <p className='ff_balsamiq font-normal  lg:text-[32px] text-[21px] leading-[38.4px] text-[#D45B07]'>No Tax</p>
+
+                                <p className='ff_balsamiq font-normal lg:text-[32px] text-xl leading-[33.24px] text-[#D45B07] '>No Tax</p>
                             </div>
                         </div>
-                        <div className=' lg:hidden flex items-center'>
+
+                        <div className=' lg:hidden flex items-center mt-3'>
                             <div className=' h-[50px] w-[50px] bg-[#FB5352] my-3'></div>
                             <div className=' pl-3'>
-                                <p className=' ff_balsamiq  font-normal lg:text-[32px] text-[21px] leading-[38.4px] text-[#FB5352]'>No Mint Function</p>
+                                <p className=' ff_balsamiq  font-normal lg:text-[32px] text-xl leading-[38.4px] text-[#FB5352]'>No Mint Function</p>
                             </div>
                         </div>
-                        <div className=' lg:hidden flex items-center '>
+                        <div className=' lg:hidden flex items-center mt-3 '>
                             <div className=' h-[50px] w-[50px] bg-[#8EC627] '></div>
                             <div className=' pl-3'>
-                                <p className=' ff_balsamiq  font-normal  lg:text-[32px] text-[21px] leading-[38.4px] text-[#8EC627]'>Liquidity lock for 1 year</p>
+                                <p className=' ff_balsamiq  font-normal  lg:text-[32px] text-xl leading-[38.4px] text-[#8EC627]'>Liquidity lock for 1 year</p>
                             </div>
                         </div>
 
