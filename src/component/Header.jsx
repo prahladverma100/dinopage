@@ -20,7 +20,7 @@ const Header = () => {
             <div
                 className=' mx-auto px-3 max-w-[1133px] pt-7'>
                 <nav className=' bg-white flex justify-between py-[15px] ps-6 pe-2 items-center  rounded-[61px] border-b-[4px] border-black'>
-                    <div>
+                    <div className=' relative z-30 cursor-pointer'>
                         <h5 className='ff_lucky font-normal text-[39px] mb-0 leading-[37px]' data-aos="fade-left"><span className=' text-[#FBA11D]'>D</span><span className=' text-[#23aaac]'>i</span><span className='text-[#d45b07]'>n</span><span className='text-[#8ec627]'>o</span><span className='text-[#fcca2b]'>L</span><span className='text-[#8f78d2]'>F</span><span className='text-[#23aaac]'>G</span></h5>
                     </div>
                     <ul className={`flex  justify-center gap-[16px] ${Show ? "left-0" : "left-[-100%]"} h-full max-lg:w-full bg-white flex-col lg:flex-row top-0 text-center z-20    items-center duration-500 fixed lg:static`}>

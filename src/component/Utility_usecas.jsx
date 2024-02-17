@@ -19,9 +19,9 @@ const Utility_usecas = () => {
             data-aos-duration="1000">Utility and Usecase</p>
           <div className=' max-w-[1014px] md:flex-row flex-col ps-3 lg:ps-10 lg:pe-6 pe-3 w-full  mx-auto flex justify-between border-[#fff] rounded-[20px] border-[1px]  bg-[#09655A] relative z-10' data-aos="fade-right">
             <div>
-              <p className=' max-w-[681px ] ff_balsamiq font-normal text-white text-xl lg:text-[32px] pt-4 md:pt-[60px] leading-[38.4px]'>We are going to work hard in otder to add $DINO to main platforms as a form of payment
+              <p className=' max-w-[681px ] ff_balsamiq font-normal text-white text-xl lg:text-[32px] pt-4 md:pt-[60px] leading-[38.4px]'>We are going to work hard in otder to add <span className='text-[#8EC627]'>$</span><span className='text-[#FBA11D]'>D</span><span className='text-[#23AAAC]'>I</span><span className='text-[#D45B07]'>N</span><span className='text-[#FB5352]'>O</span> to main platforms as a form of payment
               </p>
-              <p className=' max-w-[681px ] ff_balsamiq font-normal text-white text-xl lg:text-[32px] md:pt-7 pt-1 leading-[38.4px]'> You will be able to buy a lot of things with $DINO</p>
+              <p className=' max-w-[681px ] ff_balsamiq font-normal text-white text-xl lg:text-[32px] md:pt-7 pt-1 leading-[38.4px]'> You will be able to buy a lot of things with <span className='text-[#8EC627]'>$</span><span className='text-[#FBA11D]'>D</span><span className='text-[#23AAAC]'>I</span><span className='text-[#D45B07]'>N</span><span className='text-[#FB5352]'>O</span></p>
             </div>
             <img className=' md:max-w-[255px] max-w-[200px] w-full md:mt-[-55px]' src={dinosour1} alt="" />
           </div>

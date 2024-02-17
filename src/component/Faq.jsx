@@ -28,42 +28,42 @@ export function Faq() {
                 data-aos-duration="1000">FAQs</h3>
             <div className=" container mx-auto px-4 max-w-[801px] gap-[26px] flex flex-col" data-aos="fade-up"
                 data-aos-duration="3000">
-                <Accordion className=" border-[#FFFFFF] border-[1px] md:ps-14 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-[53px] pe-4 bg-[#09655A]  rounded-[42px] flex justify-between flex-col" open={open === 1} icon={<Icon id={1} open={open} />}>
-                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-sm text-start leading-6 text-white" onClick={() => handleOpen(1)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
+                <Accordion className=" border-[#FFFFFF] border-[1px] md:ps-6 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-6 pe-4 bg-[#09655A]  rounded-[42px] flex justify-between flex-col" open={open === 1} icon={<Icon id={1} open={open} />}>
+                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-base text-start leading-6 text-white" onClick={() => handleOpen(1)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
                     <AccordionBody>
-                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-sm pt-4  ">  Wre not always in the position that we want to be at.e constantly
+                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-base pt-4  ">  Wre not always in the position that we want to be at.e constantly
                             growing.re constantly making mistakes. Were constantly trying to express
                             ourselves and actualize our dreams.</p>
                     </AccordionBody>
                 </Accordion>
-                <Accordion className=" border-[#FFFFFF] bg-[#09655A] border-[1px] md:ps-14 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-[53px] pe-4 rounded-[42px] flex justify-between flex-col" open={open === 2} icon={<Icon id={2} open={open} />}>
-                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-sm leading-6 text-start text-white" onClick={() => handleOpen(2)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
+                <Accordion className=" border-[#FFFFFF] bg-[#09655A] border-[1px] md:ps-6 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-6 pe-4 rounded-[42px] flex justify-between flex-col" open={open === 2} icon={<Icon id={2} open={open} />}>
+                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-base leading-6 text-start text-white" onClick={() => handleOpen(2)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
                     <AccordionBody>
-                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-sm pt-4 ">  Wre not always in the position that we want to be at.e constantly
+                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-base pt-4 ">  Wre not always in the position that we want to be at.e constantly
                             growing.re constantly making mistakes. Were constantly trying to express
                             ourselves and actualize our dreams.</p>
                     </AccordionBody>
                 </Accordion>
-                <Accordion className=" border-[#FFFFFF] bg-[#09655A] border-[1px] md:ps-14 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-[53px] pe-4 rounded-[42px] flex justify-between flex-col" open={open === 3} icon={<Icon id={3} open={open} />}>
-                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-sm leading-6 text-start text-white" onClick={() => handleOpen(3)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
+                <Accordion className=" border-[#FFFFFF] bg-[#09655A] border-[1px] md:ps-6 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-6 pe-4 rounded-[42px] flex justify-between flex-col" open={open === 3} icon={<Icon id={3} open={open} />}>
+                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-base leading-6 text-start text-white" onClick={() => handleOpen(3)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
                     <AccordionBody>
-                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-sm pt-4  ">  Wre not always in the position that we want to be at.e constantly
+                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-base pt-4  ">  Wre not always in the position that we want to be at.e constantly
                             growing.re constantly making mistakes. Were constantly trying to express
                             ourselves and actualize our dreams.</p>
                     </AccordionBody>
                 </Accordion>
-                <Accordion className=" border-[#FFFFFF] bg-[#09655A] border-[1px] md:ps-14 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-[53px] pe-4 rounded-[42px] flex justify-between flex-col" open={open === 4} icon={<Icon id={4} open={open} />}>
-                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-sm leading-6 text-start text-white" onClick={() => handleOpen(4)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
+                <Accordion className=" border-[#FFFFFF] bg-[#09655A] border-[1px] md:ps-6 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-6 pe-4 rounded-[42px] flex justify-between flex-col" open={open === 4} icon={<Icon id={4} open={open} />}>
+                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-base leading-6 text-start text-white" onClick={() => handleOpen(4)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
                     <AccordionBody>
-                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-sm pt-4  ">  Wre not always in the position that we want to be at.e constantly
+                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-base pt-4  ">  Wre not always in the position that we want to be at.e constantly
                             growing.re constantly making mistakes. Were constantly trying to express
                             ourselves and actualize our dreams.</p>
                     </AccordionBody>
                 </Accordion>
-                <Accordion className=" border-[#FFFFFF] bg-[#09655A] border-[1px] md:ps-14 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-[53px] pe-4 rounded-[42px] flex justify-between flex-col" open={open === 5} icon={<Icon id={5} open={open} />}>
-                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-sm leading-6 text-start text-white" onClick={() => handleOpen(5)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
+                <Accordion className=" border-[#FFFFFF] bg-[#09655A] border-[1px] md:ps-6 ps-4 md:pt-[29px] pt-4 md:pb-[26px] pb-4  md:pe-6 pe-4 rounded-[42px] flex justify-between flex-col" open={open === 5} icon={<Icon id={5} open={open} />}>
+                    <AccordionHeader className=" ff_balsamiq font-bold md:text-xl text-base leading-6 text-start text-white" onClick={() => handleOpen(5)}>Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
                     <AccordionBody>
-                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-sm pt-4  ">  Wre not always in the position that we want to be at.e constantly
+                        <p className=" ff_balsamiq font-normal text-white md:text-xl text-base pt-4  ">  Wre not always in the position that we want to be at.e constantly
                             growing.re constantly making mistakes. Were constantly trying to express
                             ourselves and actualize our dreams.</p>
                     </AccordionBody>
